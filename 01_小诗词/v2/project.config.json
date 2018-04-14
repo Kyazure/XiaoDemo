@@ -9,7 +9,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
-	"appid": "wxb85f9dac8d37c6cd",
+	"appid": "your_app_id",
 	"projectname": "XiaoDemo",
 	"isGameTourist": false,
 	"condition": {
