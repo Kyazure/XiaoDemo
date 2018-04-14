@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/shici/shici",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f90404",
+    "navigationBarTitleText": "小程序DEMO",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ddd9d9"
+  }
+}
