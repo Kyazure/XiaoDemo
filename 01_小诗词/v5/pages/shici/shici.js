@@ -69,6 +69,12 @@ Page({
           icon: 'success',
           duration: 3000
         });
+        //当修改了前端展示的数据的时候，就必须要setData一下，让数据生效
+        this.setData({
+          finishedFlag: true,
+          answers: this.data.answers,
+          answerResult: answerResult
+        });
         return;
       }
 
