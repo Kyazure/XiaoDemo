@@ -1,0 +1,19 @@
+<!--pages/shici/shici.wxml-->
+<view classs="container">
+  <view class="shici-title">{{question.title}}</view>
+
+  <view class="shici-content">
+    <button  wx:for="{{answers}}" bindtap='handleClick' data-id="{{item.id}}" type="{{item.resultFlag?item.answerType:default}}"  data-at="{{item.answerType}}"  wx:for-item="item" wx:key="key"  >
+      {{item.title}}
+    </button>
+  </view>
+  
+  <view class="row-center-container">
+    <view class="shici-result">
+      {{answerResult}}
+    </view>
+  </view>
+
+  <button wx:if="{{failure}}" bindtap='reAnswer'>重新回答</button>
+
+</view>
