@@ -1,0 +1,15 @@
+/**app.wxss   CSS **/
+Page{
+  background-color: #ddd9d9;
+  margin: 0px;
+}
+.container {
+  height: 100%;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  box-sizing: border-box;
+} 
+

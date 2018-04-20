@@ -1,0 +1,13 @@
+<!--pages/shici/shici.wxml-->
+<view classs="container">
+  <view class="shici-title">1. {{question}}</view>
+  
+ <view class="Grid-container-spce">
+      <button class="select-btn" wx:for="{{questionChars}}" wx:key="key" wx:for-item="item" data-c='{{item.char}}' data-i='{{item.index}}'  data-n='{{item.num}}'  bindtap='handleClickSelected' hover-class="btn-hover" >{{item.char}}</button>
+  </view>
+
+  <view class="Grid-container">
+      <button class="no-num-btn {{item.visiable?'':'hidden-btn'}}" wx:for="{{answerChars}}" wx:key="key" wx:for-item="item" wx:for-index="index" data-n='{{item.num}}'  data-c='{{item.char}}' bindtap='handleClick' hover-class="btn-hover" >{{item.char}}</button>
+  </view>
+
+</view>
