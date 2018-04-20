@@ -1,0 +1,9 @@
+/* pages/openid/openid.wxss */
+.avatar{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  overflow:hidden;
+  object-fit: cover;
+  display: block;
+}

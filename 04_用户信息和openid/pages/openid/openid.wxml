@@ -1,0 +1,11 @@
+<!--pages/openid/openid.wxml-->
+<view class="container">
+  <!-- 获取用户信息 -->
+  <image class="avatar" src='{{userInfo.avatarUrl}}'></image>
+  <view style='margin-bottom:50px;'>{{userInfo.nickName}}</view>
+
+  <!-- 新的获取用户信息的方式  -->
+  <open-data class="avatar" type="userAvatarUrl"></open-data>
+  <button type="primary" open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">getUserInfo</button>
+  
+</view>
